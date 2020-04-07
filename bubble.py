@@ -6,7 +6,6 @@ from random import shuffle
 lst = list(range(1, 13))
 shuffle(lst)
 print(lst)
-lst = [6, 9, 8, 5, 4, 7, 1, 11, 2, 3, 10, 12]
 
 for i in range(len(lst)):
     curr = 0
