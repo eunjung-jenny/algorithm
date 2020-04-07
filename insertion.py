@@ -13,6 +13,7 @@ for i in range(len(lst)):
         comp = curr-1
         if lst[comp] > lst[curr]:
             lst[curr], lst[comp] = lst[comp], lst[curr]
+            print(lst)
             curr = comp
         else:
             break
