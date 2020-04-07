@@ -1,10 +1,11 @@
 # 선택 정렬
-## 전체에서 가장 작은 수를 찾아서 제일 앞에서부터 차례대로 swap 해가며 채워나간다.
+## 전체에서 가장 작은 수를 찾아서 제일 앞에서부터 차례대로 swap 해가며 채워나
 
 from random import shuffle
 
 lst = list(range(1, 13))
 shuffle(lst)
+print(lst)
 
 for i in range(len(lst)):
     minimum = lst[i]
@@ -16,5 +17,4 @@ for i in range(len(lst)):
 
     lst[i], lst[minimum_idx] = lst[minimum_idx], lst[i]
 
-
-
+print(lst)
